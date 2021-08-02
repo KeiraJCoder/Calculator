@@ -1,38 +1,43 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  background-image: url("./img/back.jpg");
+  background-color: #cccccc;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.result {
+  height: 60px;
+  background-color: rgb(176, 134, 189);
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  margin-top: 15%;
   text-align: center;
+  font-family: 'Orbitron', sans-serif; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  display: block;
+  background-color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: 'Orbitron', sans-serif;
 }
